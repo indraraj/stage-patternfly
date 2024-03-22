@@ -9,7 +9,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_1d6299fe0d5a2cd"
   },
   "dependencies": {
     "@patternfly/patternfly": "^5.2.1",
@@ -22,6 +23,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3"
+  },
+  "resolutions": {
+    "jackspeak": "2.1.1"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.2.19",
@@ -38,6 +42,7 @@
     "@typescript-eslint/eslint-plugin": "^7.0.2",
     "@typescript-eslint/parser": "^7.0.2",
     "@vitejs/plugin-react": "^4.2.1",
+    "chromatic": "^11.1.1",
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
