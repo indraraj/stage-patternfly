@@ -14,7 +14,7 @@ Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/
 
 This repository contains the web-based UI for the Debezium management platform which can be used to orchestrate and control Debezium deployments. The Platform stage UI is a React+Typescript-based Single Page Application built with Vite. [debezium-platform-conductor](https://github.com/debezium/debezium-platform-conductor) is the back-end component for Debezium management platform.
 
-<video src="src/assets//stage_ui.mov" controls="controls" loop="loop" style="max-width: 100%;">
+<video src="src/assets/stage_ui.mov" controls="controls" loop="loop" style="max-width: 100%;">
    Debezium Stage UI screen recording, Your browser does not support the video tag.
 </video>
 *Debezium Stage UI screen recording.*
